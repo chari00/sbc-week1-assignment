@@ -54,11 +54,14 @@ This is the sbc challenge. The aim is to build and style a personal portfolio we
 
 ## Visuals
 
+**Design and Document structure**
 
+![Design and file structure](assets/images/design.png)
 
 ## Build_with
 
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) <br> ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) <br>
+[Fontawesome](https://fontawesome.com/icons)
 
 ## Testing
 
@@ -75,7 +78,10 @@ This is the sbc challenge. The aim is to build and style a personal portfolio we
 - [HTML Elements Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
 - [W3Schools](https://www.w3schools.com/html/html5_semantic_elements.asp)
 
+#### Styling Resource
 
+- [CSS documentation](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [Fontawesome Documentation](https://docs.fontawesome.com/web/setup/get-started)
 
 #### GitHub Workflow
 

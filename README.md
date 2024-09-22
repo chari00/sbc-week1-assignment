@@ -1,4 +1,4 @@
-# Personal Portfolio Web Page
+# Personal Portfolio Webpage
 
 **Objective:**
 
@@ -7,7 +7,7 @@ This is the sbc challenge. The aim is to build and style a personal portfolio we
 ## Table of Content
 
 - [Requirements](#Requirements)
-- [Visuals](#Visuals)
+- [Design](#Design)
 - [Build_with](#Build_with)
 - [Testing](#Testing)
 - [Links](#Links)
@@ -52,7 +52,7 @@ This is the sbc challenge. The aim is to build and style a personal portfolio we
 
 - The page should be deployed on **GitHub Pages** and accessible via a shared URL.
 
-## Visuals
+## Design
 
 **Design and Document structure**
 

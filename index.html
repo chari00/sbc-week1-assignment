@@ -12,112 +12,124 @@
   <body>
     <header>
       <nav>
-        <ul>
-          <li><a href="about">About</a></li>
-          <li><a href="projects">Projects</a></li>
-          <li><a href="contact">Contact</a></li>
+        <ul class="nav-list">
+          <li class="nav-item"><a class="nav-link" href="about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact">Contact</a></li>
         </ul>
       </nav>
     </header>
     <section id="about">
-
-      <h2 >About Me</h2>
-      <img
-        src="../week1-personal-webpage/assets/images/avatar.jpg"
-        alt="my avatar"
-      />
+      <h2>About Me</h2>
+      <img src="./assets/images/avatar.jpg" alt="my avatar" />
       <p>
         Hi, I’m Chari, transitioning from customer service to the tech industry.
-        Inspired by my brothers, I’m now navigating the exciting world of software
-        engineering, ready to innovate and solve real world problems.
+        Inspired by my brothers, I’m now navigating the exciting world of
+        software engineering, ready to innovate and solve real world problems.
       </p>
     </section>
-<section id="projects">
-  
-  <h2 >Projects</h2>
+    <section id="projects">
+      <h2>Projects</h2>
+      <!-- TODO - add card to showcase the gallery for projects -->
+    </section>
+    <section id="contact">
+      <fieldset>
+        <h2>Contact Me</h2>
+        <form action="" method="post">
+          <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Name:</label><br /><input
+              type="text"
+              id="name"
+              placeholder="Name"
+              required
+            />
+            <br />
+            <br />
+            <label for="email">Email:</label><br /><input
+              type="email"
+              id="email"
+              placeholder="Email"
+              required
+            />
+            <br />
+            <br />
+            <label for="phone">Phone Number:</label><br /><input
+              type="tel"
+              id="phone"
+              placeholder="Phone Number"
+              required
+            />
+            <br />
+            <br />
+            <label for="message">Message:</label>
+            <br />
+            <textarea
+              id="message"
+              placeholder="Message"
+              rows="3"
+              maxlength="200"
+              required
+            ></textarea>
+          </fieldset>
+          <fieldset>
+            <legend>How do you want me to contact you?</legend>
+            <label for="contact-option">
+              Please choose to the options below:</label
+            >
+            <br />
+            <select id="contact-option" name="contact-option">
+              <option value="email">Email</option>
+              <option value="phone-call">Phone call</option>
+              <option value="text">Text</option>
+            </select>
+            <br />
+          </fieldset>
+          <fieldset>
+            <legend>Do you want to subscribe to my news letter?</legend>
+            <input type="radio" id="yes" name="yes" value="yes" />
+            <label for="yes">Yes, I want to subscribe</label>
+            <br /><br />
+            <input type="radio" id="no" name="no" value="no" />
+            <label for="no">No. Thanks! </label>
+          </fieldset>
+          <br />
+          <input type="checkbox" id="terms" />
+          <label for="terms"
+            >I agree to the terms and conditions for my news letter
+            subscription.</label
+          >
+          <br /><br />
+          <label for="date">Date of subscription</label>
+          <input type="date" id="date" />
+          <br /><br />
+          <button type="submit">Submit</button>
+        </form>
+      </fieldset>
+    </section>
 
-</section>
-<section  id="contact">
-  <fieldset>
-    <h2>Contact Me</h2>
-    <form action="" method="post">
-      <fieldset>
-        <legend>Personal Information</legend>
-        <label for="name">Name:</label><br /><input
-          type="text"
-          id="name"
-          placeholder="Name"
-          required
-        />
-        <br />
-        <br />
-        <label for="email">Email:</label><br /><input
-          type="email"
-          id="email"
-          placeholder="Email"
-          required
-        />
-        <br />
-        <br />
-        <label for="phone">Phone Number:</label><br /><input
-          type="tel"
-          id="phone"
-          placeholder="Phone Number"
-          required
-        />
-        <br />
-        <br />
-        <label for="message">Message:</label>
-        <br />
-        <textarea
-          id="message"
-          placeholder="Message"
-          rows="3"
-          maxlength="200"
-          required
-        ></textarea>
-      </fieldset>
-      <fieldset>
-        <legend>How do you want me to contact you?</legend>
-        <label for="contact-option">
-          Please choose to the options below:</label
-        >
-        <br />
-        <select id="contact-option" name="contact-option">
-          <option value="email">Email</option>
-          <option value="phone-call">Phone call</option>
-          <option value="text">Text</option>
-        </select>
-        <br />
-      </fieldset>
-      <fieldset>
-        <legend>Do you want to subscribe to my news letter?</legend>
-        <input type="radio" id="yes" name="yes" value="yes" />
-        <label for="yes">Yes, I want to subscribe</label>
-        <br /><br />
-        <input type="radio" id="no" name="no" value="no" />
-        <label for="no">No. Thanks! </label>
-      </fieldset>
-      <br />
-      <input type="checkbox" id="terms" />
-      <label for="terms"
-        >I agree to the terms and conditions for my news letter
-        subscription.</label
-      >
-      <br /><br />
-      <label for="date">Date of subscription</label>
-      <input type="date" id="date" />
-      <br /><br />
-      <button type="submit">Submit</button>
-    </form>
-  </fieldset>
+    <footer>
+      <section class="footer-menu">
+        <ul class="menu-list">
+          <li class="menu-item"> <a href="about">About</a> </li>
+          <li class="menu-item"> <a href="projects">Projects</a> </li>
+          <li class="menu-item"> <a href="contact">Contact</a> </li>
+        </ul>
+      </section>
+      <section class="footer-socials">
+        <ul class="social-list">
+          <li class="social-item"><a class="social-link" href="#" class="social-link">LinkedIn</a></li>
+          <li class="social-item"><a class="social-link" href="#" class="social-link">GitHub</a></li>
+        </ul>
+      </section>
+      <section class="footer-contact">
+        <ul class="contact-list">
+          <li class="contact-item"><a href="mailto:macharitocruzuk@gmail.com">Email:</a></li>
+          <li class="contact-item"><a href="#">Phone:</a></li>
+        </ul>
+      </section>
+      <section><small>&copy; 2024 Build with 💖.</small></section>
 
-</section>
-    
-<footer>
-  
-  <!-- //TODO - footer menu, social icons/links, contact details, and copyright -->
- 
-</footer>
+    </footer>
   </body>
 </html>

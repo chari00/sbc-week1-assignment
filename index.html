@@ -4,120 +4,177 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chari Cruz</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  
     <link
       rel="stylesheet"
       href="../week1-personal-webpage/assets/styles/style.css"
-    />
+    >
   </head>
   <body>
     <header>
       <nav>
-        <ul>
-          <li><a href="about">About</a></li>
-          <li><a href="projects">Projects</a></li>
-          <li><a href="contact">Contact</a></li>
+        <ul class="nav-list">
+          <li class="nav-item"><a class="nav-link" href="about">About</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact">Contact</a>
+          </li>
         </ul>
       </nav>
     </header>
     <section id="about">
-
-      <h2 >About Me</h2>
-      <img
-        src="../week1-personal-webpage/assets/images/avatar.jpg"
-        alt="my avatar"
-      />
-      <p>
-        Hi, I’m Chari, transitioning from customer service to the tech industry.
-        Inspired by my brothers, I’m now navigating the exciting world of software
-        engineering, ready to innovate and solve real world problems.
-      </p>
+      <h2>About Me</h2>
+      <section>
+        <img src="./assets/images/avatar.jpg" alt="my avatar" />
+        <p>
+          Hi, I’m Chari, 
+        </p>
+        <p>
+          Full-Stack Web Development Student.
+        </p>
+      </section>
+      <section>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quia sapiente cumque odio numquam aliquam deleniti amet illum laborum, similique saepe molestiae nostrum, impedit incidunt! Corporis accusamus commodi molestiae distinctio asperiores, eius nihil tempore necessitatibus exercitationem soluta optio sed voluptatibus dicta officiis nemo quia, cumque impedit saepe omnis facere. Quae?</p>
+        <p>Aut ipsa nobis ex amet suscipit consequatur quidem eos ratione cum, deleniti vero iusto aliquam? Asperiores voluptatibus optio id adipisci sint nobis aut quis est rem voluptatem debitis, blanditiis recusandae cupiditate impedit ullam facere in incidunt temporibus tempora nisi consectetur! Quos similique sunt mollitia neque ipsum officia iure reprehenderit quas.</p>
+      </section>
     </section>
-<section id="projects">
-  
-  <h2 >Projects</h2>
+    <section id="projects">
+      <h2>Projects</h2>
+      <section class="card-container">
+        <div class="card" style="width: 18rem;">
+          <img src="https://via.placeholder.com/150" class="card-img" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn ">View Project</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="https://via.placeholder.com/150" class="card-img" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn ">View Project</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="https://via.placeholder.com/150" class="card-img" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn ">View Project</a>
+          </div>
+        </div>
 
-</section>
-<section  id="contact">
-  <fieldset>
-    <h2>Contact Me</h2>
-    <form action="" method="post">
+      </section>   
+    <section id="contact">
       <fieldset>
-        <legend>Personal Information</legend>
-        <label for="name">Name:</label><br /><input
-          type="text"
-          id="name"
-          placeholder="Name"
-          required
-        />
-        <br />
-        <br />
-        <label for="email">Email:</label><br /><input
-          type="email"
-          id="email"
-          placeholder="Email"
-          required
-        />
-        <br />
-        <br />
-        <label for="phone">Phone Number:</label><br /><input
-          type="tel"
-          id="phone"
-          placeholder="Phone Number"
-          required
-        />
-        <br />
-        <br />
-        <label for="message">Message:</label>
-        <br />
-        <textarea
-          id="message"
-          placeholder="Message"
-          rows="3"
-          maxlength="200"
-          required
-        ></textarea>
+        <h2>Contact Me</h2>
+        <form action="" method="post">
+          <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Name:</label><br /><input
+              type="text"
+              id="name"
+              placeholder="Name"
+              required
+            />
+            <br />
+            <br />
+            <label for="email">Email:</label><br /><input
+              type="email"
+              id="email"
+              placeholder="Email"
+              required
+            />
+            <br />
+            <br />
+            <label for="phone">Phone Number:</label><br /><input
+              type="tel"
+              id="phone"
+              placeholder="Phone Number"
+              required
+            />
+            <br />
+            <br />
+            <label for="message">Message:</label>
+            <br />
+            <textarea
+              id="message"
+              placeholder="Message"
+              rows="3"
+              maxlength="200"
+              required
+            ></textarea>
+          </fieldset>
+          <fieldset>
+            <legend>How do you want me to contact you?</legend>
+            <label for="contact-option">
+              Please choose to the options below:</label
+            >
+            <br />
+            <select id="contact-option" name="contact-option">
+              <option value="email">Email</option>
+              <option value="phone-call">Phone call</option>
+              <option value="text">Text</option>
+            </select>
+            <br />
+          </fieldset>
+          <fieldset>
+            <legend>Do you want to subscribe to my news letter?</legend>
+            <input type="radio" id="yes" name="yes" value="yes" />
+            <label for="yes">Yes, I want to subscribe</label>
+            <br /><br />
+            <input type="radio" id="no" name="no" value="no" />
+            <label for="no">No. Thanks! </label>
+          </fieldset>
+          <br />
+          <input type="checkbox" id="terms" />
+          <label for="terms"
+            >I agree to the terms and conditions for my news letter
+            subscription.</label
+          >
+          <br /><br />
+          <label for="date">Date of subscription</label>
+          <input type="date" id="date" />
+          <br /><br />
+          <button type="submit">Submit</button>
+        </form>
       </fieldset>
-      <fieldset>
-        <legend>How do you want me to contact you?</legend>
-        <label for="contact-option">
-          Please choose to the options below:</label
-        >
-        <br />
-        <select id="contact-option" name="contact-option">
-          <option value="email">Email</option>
-          <option value="phone-call">Phone call</option>
-          <option value="text">Text</option>
-        </select>
-        <br />
-      </fieldset>
-      <fieldset>
-        <legend>Do you want to subscribe to my news letter?</legend>
-        <input type="radio" id="yes" name="yes" value="yes" />
-        <label for="yes">Yes, I want to subscribe</label>
-        <br /><br />
-        <input type="radio" id="no" name="no" value="no" />
-        <label for="no">No. Thanks! </label>
-      </fieldset>
-      <br />
-      <input type="checkbox" id="terms" />
-      <label for="terms"
-        >I agree to the terms and conditions for my news letter
-        subscription.</label
-      >
-      <br /><br />
-      <label for="date">Date of subscription</label>
-      <input type="date" id="date" />
-      <br /><br />
-      <button type="submit">Submit</button>
-    </form>
-  </fieldset>
+    </section>
 
-</section>
-    
-<footer>
-  
-  <!-- //TODO - footer menu, social icons/links, contact details, and copyright -->
- 
-</footer>
+    <footer>
+      <section class="footer-menu">
+        <ul class="menu-list">
+          <li class="menu-item"><a href="about">About</a></li>
+          <li class="menu-item"><a href="projects">Projects</a></li>
+          <li class="menu-item"><a href="contact">Contact</a></li>
+        </ul>
+      </section>
+      <section class="footer-socials">
+        <ul class="social-list">
+          <li class="social-item">
+            <a class="social-link" href="#" class="social-link"><i class="fa-brands fa-linkedin"></i><span class="sr-only">LinkedIn</span></a>
+          </li>
+          <li class="social-item">
+            <a class="social-link" href="https://github.com/chari00" class="social-link"
+              ><i class="fa-brands fa-github"></i><span class="sr-only">GitHub</span></a
+            >
+          </li>
+        </ul>
+      </section>
+      <section class="footer-contact">
+        <ul class="contact-list">
+          <li class="contact-item">
+            <a href="mailto:macharitocruzuk@gmail.com"><i class="fas fa-envelope"></i> Email me</a>
+          </li>
+          <li class="contact-item"><a href="tel:"><i class="fas fa-phone"></i> Phone: +0123456789</a></li>
+        </ul>
+      </section>
+      <section><small>&copy; 2024 Build with 💖.</small></section>
+    </footer>
   </body>
 </html>

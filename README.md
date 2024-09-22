@@ -69,7 +69,7 @@ This is the sbc challenge. The aim is to build and style a personal portfolio we
 
 ### Deployed website link
 
-[Personal Portfolio webpage](https://chari00.github.io/sbc-week1-assignment/)
+[Personal Portfolio webpage](https://chari00.github.io/sbc-week1-personal-webpage/)
 
 ### Resources Links
 

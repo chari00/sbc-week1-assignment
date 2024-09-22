@@ -82,6 +82,7 @@ This is the sbc challenge. The aim is to build and style a personal portfolio we
 
 - [CSS documentation](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [Fontawesome Documentation](https://docs.fontawesome.com/web/setup/get-started)
+- [w3Schools](https://www.w3schools.com/icons/fontawesome_icons_intro.asp)
 
 #### GitHub Workflow
 

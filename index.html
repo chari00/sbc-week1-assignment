@@ -4,22 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chari Cruz</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-  
     <link
       rel="stylesheet"
-      href="../week1-personal-webpage/assets/styles/style.css"
-    >
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="./assets/styles/style.css" />
   </head>
   <body>
     <header>
       <nav>
         <ul class="nav-list">
-          <li class="nav-item"><a class="nav-link" href="about">About</a></li>
-          <li class="nav-item">
+          <li class="list-item"><a class="nav-link" href="about">About</a></li>
+          <li class="list-item">
             <a class="nav-link" href="projects">Projects</a>
           </li>
-          <li class="nav-item">
+          <li class="list-item">
             <a class="nav-link" href="contact">Contact</a>
           </li>
         </ul>
@@ -29,47 +29,67 @@
       <h2>About Me</h2>
       <section>
         <img src="./assets/images/avatar.jpg" alt="my avatar" />
-        <p>
-          Hi, I’m Chari, 
-        </p>
-        <p>
-          Full-Stack Web Development Student.
-        </p>
+        <p>Hi, I’m Chari,</p>
+        <p>Full-Stack Web Development Student.</p>
       </section>
       <section>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quia sapiente cumque odio numquam aliquam deleniti amet illum laborum, similique saepe molestiae nostrum, impedit incidunt! Corporis accusamus commodi molestiae distinctio asperiores, eius nihil tempore necessitatibus exercitationem soluta optio sed voluptatibus dicta officiis nemo quia, cumque impedit saepe omnis facere. Quae?</p>
-        <p>Aut ipsa nobis ex amet suscipit consequatur quidem eos ratione cum, deleniti vero iusto aliquam? Asperiores voluptatibus optio id adipisci sint nobis aut quis est rem voluptatem debitis, blanditiis recusandae cupiditate impedit ullam facere in incidunt temporibus tempora nisi consectetur! Quos similique sunt mollitia neque ipsum officia iure reprehenderit quas.</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quia
+          sapiente cumque odio numquam aliquam deleniti amet illum laborum,
+          similique saepe molestiae nostrum, impedit incidunt! Corporis
+          accusamus commodi molestiae distinctio asperiores, eius nihil tempore
+          necessitatibus exercitationem soluta optio sed voluptatibus dicta
+          officiis nemo quia, cumque impedit saepe omnis facere. Quae?
+        </p>
+        <p>
+          Aut ipsa nobis ex amet suscipit consequatur quidem eos ratione cum,
+          deleniti vero iusto aliquam? Asperiores voluptatibus optio id adipisci
+          sint nobis aut quis est rem voluptatem debitis, blanditiis recusandae
+          cupiditate impedit ullam facere in incidunt temporibus tempora nisi
+          consectetur! Quos similique sunt mollitia neque ipsum officia iure
+          reprehenderit quas.
+        </p>
       </section>
+      <a href="#" class="btn">My CV</a>
     </section>
     <section id="projects">
       <h2>Projects</h2>
       <section class="card-container">
-        <div class="card" style="width: 18rem;">
-          <img src="https://via.placeholder.com/150" class="card-img" alt="">
+        <div class="card" style="width: 18rem">
+          <img src="https://via.placeholder.com/150" class="card-img" alt="" />
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn ">View Project</a>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo,
+              numquam?
+            </p>
+            <a href="#" class="btn">View Project</a>
           </div>
         </div>
-        <div class="card" style="width: 18rem;">
-          <img src="https://via.placeholder.com/150" class="card-img" alt="">
+        <div class="card" style="width: 18rem">
+          <img src="https://via.placeholder.com/150" class="card-img" alt="" />
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn ">View Project</a>
+            <p class="card-text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi,
+              alias?
+            </p>
+            <a href="#" class="btn">View Project</a>
           </div>
         </div>
-        <div class="card" style="width: 18rem;">
-          <img src="https://via.placeholder.com/150" class="card-img" alt="">
+        <div class="card" style="width: 18rem">
+          <img src="https://via.placeholder.com/150" class="card-img" alt="" />
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn ">View Project</a>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum,
+              voluptatum.
+            </p>
+            <a href="#" class="btn">View Project</a>
           </div>
         </div>
-
-      </section>   
+      </section>
+    </section>
     <section id="contact">
       <fieldset>
         <h2>Contact Me</h2>
@@ -111,9 +131,10 @@
             ></textarea>
           </fieldset>
           <fieldset>
-            <legend>How do you want me to contact you?</legend>
+            <legend>How do you wish to be contacted?</legend>
+            <br />
             <label for="contact-option">
-              Please choose to the options below:</label
+              Please choose from options below:</label
             >
             <br />
             <select id="contact-option" name="contact-option">
@@ -125,6 +146,7 @@
           </fieldset>
           <fieldset>
             <legend>Do you want to subscribe to my news letter?</legend>
+            <br />
             <input type="radio" id="yes" name="yes" value="yes" />
             <label for="yes">Yes, I want to subscribe</label>
             <br /><br />
@@ -141,11 +163,10 @@
           <label for="date">Date of subscription</label>
           <input type="date" id="date" />
           <br /><br />
-          <button type="submit">Submit</button>
+          <button type="submit" class="btn">Submit</button>
         </form>
       </fieldset>
     </section>
-
     <footer>
       <section class="footer-menu">
         <ul class="menu-list">
@@ -157,11 +178,18 @@
       <section class="footer-socials">
         <ul class="social-list">
           <li class="social-item">
-            <a class="social-link" href="#" class="social-link"><i class="fa-brands fa-linkedin"></i><span class="sr-only">LinkedIn</span></a>
+            <a class="social-link" href="#" class="social-link"
+              ><i class="fa-brands fa-linkedin"></i
+              ><span class="sr-only">LinkedIn</span></a
+            >
           </li>
           <li class="social-item">
-            <a class="social-link" href="https://github.com/chari00" class="social-link"
-              ><i class="fa-brands fa-github"></i><span class="sr-only">GitHub</span></a
+            <a
+              class="social-link"
+              href="https://github.com/chari00"
+              class="social-link"
+              ><i class="fa-brands fa-github"></i
+              ><span class="sr-only">GitHub</span></a
             >
           </li>
         </ul>
@@ -169,12 +197,18 @@
       <section class="footer-contact">
         <ul class="contact-list">
           <li class="contact-item">
-            <a href="mailto:macharitocruzuk@gmail.com"><i class="fas fa-envelope"></i> Email me</a>
+            <a href="mailto:macharitocruzuk@gmail.com"
+              ><i class="fas fa-envelope"></i> Email me</a
+            >
           </li>
-          <li class="contact-item"><a href="tel:"><i class="fas fa-phone"></i> Phone: +0123456789</a></li>
+          <li class="contact-item">
+            <a href="tel:"><i class="fas fa-phone"></i> Phone: +0123456789</a>
+          </li>
         </ul>
       </section>
-      <section><small>&copy; 2024 Build with 💖.</small></section>
+      <section class="copyright">
+        <small>&copy; 2024 Build with 💖.</small>
+      </section>
     </footer>
   </body>
 </html>

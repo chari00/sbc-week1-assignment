@@ -14,17 +14,21 @@ body {
   width: 100%;
   background-color: #ffffff;
   display: grid;
-  /* place-items: center; */
   justify-content: center;
   position: relative; /* for sticky */
 }
-h1 {
-  font-size: 2rem;
-}
+
 /* for sticky requirement */
 header {
   position: sticky;
   top: 0;
+}
+
+h1 {
+  font-size: 2rem;
+}
+#message {
+  resize: none;
 }
 
 #about,
@@ -37,19 +41,16 @@ footer {
 
 #about,
 #projects,
+#contact {
+  padding: 0 70px 0 70px;
+}
+
+#about,
+#projects,
 #contact,
 footer,
 .card {
   margin-top: 25px;
-}
-.card-text,
-.about-text {
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
-.intro {
-  margin-top: 25px;
-  margin-bottom: 10px;
 }
 
 header {
@@ -66,11 +67,54 @@ header {
   align-items: center;
   width: 250px;
   margin: 20px;
+  
 }
 .nav-link,
 .menu-item > a,
 .contact-item > a {
   text-decoration: none;
+}
+
+.nav-link{
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.card-text,
+.about-text {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.about-text > p {
+  padding-top: 10px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.intro {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+.intro > p {
+  margin-left: 30px;
+  font-size: 1.5rem;
+}
+.about-text > p {
+  text-align: justify;
+  text-indent: 40px;
+  padding: 10px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .btn {
@@ -89,15 +133,21 @@ header {
 }
 .nav-link:hover,
 .menu-item > a:hover,
-.contact-item > a:hover {
-  color: darkorange;
-}
+.contact-item > a:hover,
 .fa-github:hover,
 .fa-linkedin:hover {
   color: darkorange;
 }
 
+.fieldset {
+  padding: 10px;
+}
+fieldset {
+  margin: 10px;
+}
+
 footer {
+  padding: 10px 0 0 10px;
   background-color: #eceef9;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -132,6 +182,13 @@ footer {
   text-decoration: none;
   list-style: none;
 }
+.menu-item {
+  text-align: center;
+}
+.social-item {
+  padding: 5px;
+}
+
 .fa-linkedin {
   font-size: 30px;
   color: rgb(18, 81, 145);
@@ -145,4 +202,12 @@ footer {
   width: 140px;
   flex-direction: row;
   justify-content: center;
+}
+
+@media (min-width: 400px) {
+  #about,
+  #projects,
+  #contact {
+    padding: 0 30px 0 30px;
+  }
 }

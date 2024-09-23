@@ -64,6 +64,7 @@ This is the sbc challenge. The aim is to build and style a personal portfolio we
 [Fontawesome](https://fontawesome.com/icons)
 
 ## Testing
+Conduct manual testing to confirm that the project is responsive and displays properly on both mobile and desktop viewports.
 
 ## Links
 
@@ -97,4 +98,4 @@ This is the sbc challenge. The aim is to build and style a personal portfolio we
 
 ## Questions
 
-For questions and comments please email me at macharitocruzuk@gmail.com.
+For questions and comments please fill in the [feedback form](https://feedback-form-mcc.netlify.app/).

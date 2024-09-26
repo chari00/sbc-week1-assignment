@@ -12,7 +12,7 @@ html,
 body {
   height: 100%;
   width: 100%;
-  background-color: #ffffff;
+  background-color: #f7f4f4;
   display: grid;
   justify-content: center;
   position: relative; /* for sticky */
@@ -29,6 +29,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  z-index: 1;
 }
 
 .nav-list {
@@ -115,6 +116,9 @@ footer,
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+.card {
+  background-color: rgb(246, 240, 230);
+}
 
 .btn {
   background-color: darkgreen;
@@ -135,13 +139,6 @@ footer,
 .fa-github:hover,
 .fa-linkedin:hover {
   color: darkorange;
-}
-
-.fieldset {
-  padding: 10px;
-}
-fieldset {
-  margin: 10px;
 }
 
 footer {
@@ -212,5 +209,6 @@ footer {
   #projects,
   #contact {
     padding: 0 70px 0 70px;
+    margin-top: 50px;
   }
 }
